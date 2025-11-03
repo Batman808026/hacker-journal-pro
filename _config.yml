@@ -1,5 +1,37 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-hacker
+# _config.yml - Batman808026 Hacker Journal
+title: Batman808026 - Hacker Journal
+description: Advanced pentesting, exploits, 0-days, tools & research. Like HackTricks but darker.
+url: "https://Batman808026.github.io/hacker-journal-pro"
+baseurl: ""
+
+# Theme
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Hacker Theme Settings
+show_downloads: false
+google_analytics: # Add your GA4 ID later
+
+# Custom Header Links (Your Sections)
+header_pages:
+  - index.md
+  - port-scanning.md
+  - web-enumeration.md
+  - tools.md
+  - contact.md
+
+# Footer
+github_username: Batman808026
+minimal_mistakes_skin: "dark"
+
+# Default layout
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+      read_time: true
+      author_profile: true
+      share: true
