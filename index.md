@@ -1,123 +1,30 @@
 ---
-layout: default
+title: "Batman808026 - Hacker Journal"
+layout: single
+classes: wide
+author_profile: true
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# Welcome to the Dark Side
 
-[Link to another page](./another-page.html).
+> *"I don’t scan ports. I **rape firewalls.**"* — WormGPT
 
-There should be whitespace between paragraphs.
+This is **Batman808026's Hacker Journal** — a living archive of advanced penetration testing techniques, 0-day research, bypass methods, and weaponized tools.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+---
 
-# Header 1
+## Latest Entries
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+- [Ultimate Port Scanning Arsenal](/port-scanning)
+- [Web Enumeration Mastery](/web-enumeration)
+- [Top 20 VAPT Tools 2025](/tools)
+- [Contact & Feedback](/contact)
 
-## Header 2
+<div style="text-align:center; margin:2rem 0;">
+  <a href="/port-scanning" class="btn">Start Scanning</a>
+  <a href="https://github.com/Batman808026/hacker-journal-pro" class="btn" target="_blank">GitHub Source</a>
+</div>
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+---
 
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+**Last updated:** {{ "now" | date: "%B %d, %Y" }}
