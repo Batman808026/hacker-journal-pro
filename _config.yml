@@ -35,3 +35,7 @@ defaults:
       read_time: true
       author_profile: true
       share: true
+
+# Custom CSS
+assets:
+  stylesheet: /assets/css/custom.css      
